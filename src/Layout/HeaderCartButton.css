@@ -1,0 +1,28 @@
+.button{
+    cursor: pointer;
+    border: none;
+    background: #21003f;
+    color: white;
+    padding: 0.8rem 3rem;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    border-radius: 15px;
+    
+
+}
+.icon{
+    font-size: 20px;
+    padding-right: 9px;
+}
+.icon2{
+    font-size: 15px;
+    padding-right: 9px;
+}
+.icon3{
+    font-size: 17px;
+    background: #df2121;
+    padding: 3px 7px;
+    border-radius: 5px;
+
+}
