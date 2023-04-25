@@ -12,14 +12,14 @@ const Cart = (props) => {
     ].map((item)=> <li className='item-Name'>{item.name}</li>) } </ul>
   return (
    
-   <Model>
+   <Model onClose={props.onClose}>
     {CartItems}
     <div className='amounts'>
         <span>Total Amount</span>
         <span>35.62</span>
     </div>
     <div className='btns'>
-        <button className='close'>Close</button>
+        <button className='close' onClick={props.onClose}>Close</button>
         <button className='order'>Order</button>
     </div>
     </Model>

@@ -1,7 +1,7 @@
 import  './HeaderCartButton.css';
 
 const HeaderCartButton= (props)=> {
-    return <button className='button'>
+    return <button className='button' onClick={props.onClick}>
         <span className='icon'>
         <i class="bi bi-cart3"></i>
         </span>
