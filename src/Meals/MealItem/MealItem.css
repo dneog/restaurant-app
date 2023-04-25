@@ -1,0 +1,23 @@
+.li{
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.373);
+}
+.details{
+   text-align: left;
+}
+.name{
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 4px;
+    padding-top: 9px;
+
+}
+.description{
+    font-style: italic;
+    padding-bottom: 4px;
+}
+.price{
+    font-weight: bold;
+    font-size: 18px;
+    color: brown;
+}
