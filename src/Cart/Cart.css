@@ -1,0 +1,37 @@
+.item-Name{
+    list-style: none;
+    margin-left: -40px;
+    margin-top: -20px;
+   top: -20px;
+}
+.amounts{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 7px;
+}
+.btns{
+    display: flex;
+    justify-content: right;
+}
+
+.close{
+    margin-right: 5px;
+    background: #ffffff;
+    border: 1px solid #760000;
+    padding: 9px 24px;
+   
+    font-size: 15px;
+    border-radius: 17px;
+    color: black;
+}
+.order{
+    background: #760000;
+    border: 0;
+    padding: 10px 24px;
+    font-size: 15px;
+    border-radius: 17px;
+    color: white;
+   
+}
