@@ -1,0 +1,19 @@
+.meal{
+    margin: auto;
+    margin-top: 10rem;
+    text-align: center;
+    width: 45%;
+   
+   position: relative;
+   background-color: #464646;
+   color: white;
+   border-radius: 15px;
+   padding: 1rem;
+   box-shadow: 0 1px 18px black;
+
+
+}
+.meal h2{
+    font-size: 30px;
+
+}
