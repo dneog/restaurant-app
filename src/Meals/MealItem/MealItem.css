@@ -1,6 +1,9 @@
 .li{
     padding-bottom: 10px;
     border-bottom: 1px solid rgba(0, 0, 0, 0.373);
+    display: flex;
+    justify-content: space-between;
+    padding-right: 5px;
 }
 .details{
    text-align: left;
