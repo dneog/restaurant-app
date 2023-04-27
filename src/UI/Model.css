@@ -10,10 +10,11 @@
   
   .modal {
     position: fixed;
+   
     top: 20vh;
     left: 50%;
     width: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -20%);
     background-color: white;
     padding: 1rem;
     border-radius: 14px;

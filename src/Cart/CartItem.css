@@ -1,0 +1,8 @@
+.foodName{
+    font-size: 19px;
+    font-weight: bold;
+}
+.display{
+    display: flex;
+    justify-content: space-between;
+}
