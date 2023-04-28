@@ -1,8 +1,53 @@
 .foodName{
     font-size: 19px;
     font-weight: bold;
+    padding-bottom: 7px;
 }
 .display{
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+}
+.nums{
+    margin-left: 15px;
+    padding: 0px 4px;
+    border-radius: 5px;
+
+    border: 1px solid black;
+}
+.border-bottom{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.425);
+    padding-bottom: 15px;
+    padding-top: 7px;
+}
+.plus{
+    border-radius: 5px;
+    padding: 0px 10px;
+    font-size: 24px;
+    margin-top: 18px;
+    background: #00000000;
+    border: 0.5px solid rgb(156, 23, 0);
+    transition: all 0.2s;
+}
+.minus{
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-right: 5px;
+    padding: 0px 12px;
+    font-size: 24px;
+    background: #00000000;
+    border: 0.5px solid rgb(156, 23, 0);
+    transition: all 0.2s;
+}
+.plus:hover{
+    background: #ba0000;
+    color: rgb(255, 255, 255);
+}
+.minus:hover{
+    background: #ba0000;
+    color: rgb(255, 255, 255);
 }
